@@ -27,7 +27,7 @@ def recorder_without_score_input():
 
 def recorder_with_score_input():
     recorder_without_score_input()
-    #Not a required part of the program as it just takes the winner, the score and the means of win (or draw). Feel free to disable this part of the code
+    #Not a required part of the program as it just takes the winner, the score and the means of win (or draw).
     acceptable_scores = ['1-0','0-1','0.5-0.5']
     ending_methods = ['by Checkmate', 'by Resignation', 'Stalemate', 'Insufficient material', 'on Time']
     while True:
